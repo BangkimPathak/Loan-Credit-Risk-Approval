@@ -21,6 +21,8 @@ Automating loan evaluation allows financial institutions to reduce credit defaul
 ---
 
 ## 📊 Dataset & Preprocessing
+**Dataset Extraction 
+LINK :https://www.kaggle.com/datasets/muhammadmusharraf444/loan-approval-dataset
 
 The dataset `loan_data_new.csv` contains **45,002 initial records** with applicant financial attributes, demographics, and credit history.
 
@@ -44,29 +46,6 @@ The dataset `loan_data_new.csv` contains **45,002 initial records** with applica
 ├── requirements.txt                   # Dependency specifications
 └── README.md                          # Project documentation
 ```
-
----
-
-## 🛠️ Environment Setup & VS Code Integration
-
-### Prerequisites
-- Python 3.10+
-- Visual Studio Code with **Python** (`ms-python.python`) and **Jupyter** (`ms-toolsai.jupyter`) extensions installed.
-
-### Installation
-
-1. Clone or download the repository to your local machine:
-   ```bash
-   git clone https://github.com/your-username/loan-approval-decision-tree.git
-   cd loan-approval-decision-tree
-   ```
-
-2. Install dependencies via `pip`:
-   ```bash
-   pip install -r requirements.txt
-   ```
-   *(Note: The notebook also includes a top cell `%pip install pandas numpy scikit-learn matplotlib seaborn` for inline execution in VS Code).*
-
 ---
 
 ## 📓 Notebook Structure (`loan_approval_decision_tree.ipynb`)
@@ -80,19 +59,6 @@ The notebook follows a clear 7-step narrative structure:
 - **`# Step 5: Model Evaluation & Performance Metrics`** — Computing Accuracy, Precision, Recall, F1-Score, and displaying a Seaborn Heatmap of the Confusion Matrix.
 - **`# Step 6: Decision Tree Visualization`** — Plotting high-resolution decision tree diagrams with node labels and feature names via `plot_tree()`.
 - **`# Step 7: Conclusion & Key Findings`** — Summarizing core decision split rules and recommendations for MLOps deployment.
-
----
-
-## 🚀 How to Run in VS Code
-
-1. Open VS Code:
-   ```bash
-   code .
-   ```
-2. Open `loan_approval_decision_tree.ipynb`.
-3. Select your Python kernel in the top-right corner of VS Code (e.g., Python 3.10+ virtual environment).
-4. Click **"Run All"** or execute cells sequentially using `Shift + Enter`.
-
 ---
 
 ## 🔑 Key Findings & Decision Split Rules
@@ -102,7 +68,3 @@ The notebook follows a clear 7-step narrative structure:
 3. **`Home Ownership`**: Categorical status (`RENT` vs `MORTGAGE`/`OWN`) serves as a critical tertiary predictor of financial stability.
 
 ---
-
-## 📜 License
-
-Distributed under the MIT License. See `LICENSE` for details.
