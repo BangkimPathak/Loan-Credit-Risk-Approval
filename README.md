@@ -101,28 +101,6 @@ flowchart TD
 
 ---
 
-## 🛠️ Environment Setup & VS Code Integration
-
-### Prerequisites
-- Python 3.10+
-- Visual Studio Code with the official **Python** (`ms-python.python`) and **Jupyter** (`ms-toolsai.jupyter`) extensions.
-
-### Installation Steps
-
-1. Clone or download this repository:
-   ```bash
-   git clone https://github.com/BangkimPathak/Loan-Credit-Risk-Approval.git
-   cd Loan-Credit-Risk-Approval
-   ```
-
-2. Install python dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-   *(Note: The notebook also includes a top cell `%pip install pandas numpy scikit-learn matplotlib seaborn` for seamless inline execution inside VS Code).*
-
----
-
 ## 📁 Repository Structure
 
 ```text
@@ -132,18 +110,6 @@ flowchart TD
 ├── requirements.txt                   # Dependency specifications
 └── README.md                          # Comprehensive project documentation
 ```
-
----
-
-## 🚀 How to Run in VS Code
-
-1. Open the project folder in VS Code:
-   ```bash
-   code .
-   ```
-2. Open `loan_approval_decision_tree.ipynb`.
-3. Select your Python 3.10+ kernel in the top-right corner of the editor.
-4. Click **"Run All"** or execute cells sequentially using `Shift + Enter`.
 
 ---
 
@@ -158,6 +124,3 @@ flowchart TD
 
 ---
 
-## 📜 License
-
-This project is licensed under the MIT License.
